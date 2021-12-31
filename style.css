@@ -7,7 +7,7 @@ html {
 body {
     font-size: 1.25rem;
     color: #000;
-    margin: 0 ;
+    margin: 0;
     border: solid 0.3rem #000;
 }
 
@@ -36,7 +36,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(img/Light.JPG);
+    background-image: url(../img/Light.JPG);
     min-height: 100%;
 }
 
@@ -517,7 +517,7 @@ small {
         background-repeat: no-repeat;
         background-position: center;
         max-width: 100%;
-    
+
     }
 
     /* 見出し */
