@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="discription" content="ポートフォリオ">
+  <link rel="stylesheet" href="style.css">
+  <title>ポートフォリオ</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header">
+      <h1 class="site-title">想いをカタチに</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="sec-title">
+      <h2 class="title">Nobless of Lige</h2>
+      <p>What the hell can i do?</p>
+      <!-- 余白 -->
+      <div class="space">hello</div>
+      <!-- ボタン -->
+      <a class="button" href="#">ACCESS</a>
+
+    </section>
+    <section id="sec-title">
+      <h2 class="title2">ABOUT</h2>
+      <!-- ライン -->
+      <div class="line"></div>
+
+      <p class="post-date"><img src="img/Keybord.JPG" alt="キーボード"><img src="img/My_room.JPG" alt="ルーム"><img
+          src="img/green.jpg" alt="熊野古道"></p>
+      <p>はじめまして。滝村卓也です<br>
+        現在私はプログラミング学習で、HTML/CSSとjQueryの学習を行っています。<br>
+        将来的にはWEBデザイナーを目指しており、現在転職活動中です。<br>
+        WEB業界で実務をこなし、様々な見解や知識を習得しそれを糧にスキルアップを目指してます。<br>
+        趣味はeスポーツ全般・トレッキング・キャンプなどしております。</p>
+    </section>
+
+    <section id="contact">
+
+      <div class="line2"></div>
+
+      <h1 class="section-header">Contact</h1>
+
+      <div class="contact-wrapper">
+
+        <!-- Left contact page -->
+
+        <form id="contact-form" class="form-horizontal" role="form">
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">Send</span>
+            </div>
+
+          </button>
+
+        </form>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City,
+                  State</span></i></li>
+
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                    href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
+                    title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+
+          </ul>
+
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <hr>
+
+          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <script>
+      document.querySelector('#contact-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        e.target.elements.name.value = '';
+        e.target.elements.email.value = '';
+        e.target.elements.message.value = '';
+      });
+    </script>
+
+
+
+
+
+
+    <footer id="footer">
+      <p><small>&copy;2021 My Portfolio</small></p>
+    </footer>
+</body>
+
+</html>
