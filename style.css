@@ -153,7 +153,7 @@ p {
 /* ボタン */
 .button {
     display: inline-block;
-    margin-left: 48%;
+    margin-left: 49%;
     margin-top: 20px;
     border-radius: 5px;
     font-size: 1.8rem;
@@ -177,7 +177,7 @@ p {
 .line {
     position: relative;
     bottom: 20px;
-    left: 48.5%;
+    left: 48%;
     background: #000;
     width: 108px;
     height: 3px;
@@ -531,7 +531,7 @@ small {
     .title {
         margin-left: 82px;
         margin-right: 70px;
-        margin-top: 50px;
+        margin-top: 40px;
         font-size: 3rem;
         padding: 1.3rem;
     }
@@ -553,7 +553,7 @@ small {
 
     .line {
         position: relative;
-        left: 40%;
+        left: 39%;
 
     }
 
@@ -567,7 +567,7 @@ small {
     }
 
     #header li {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-right: 53%;
     }
 
